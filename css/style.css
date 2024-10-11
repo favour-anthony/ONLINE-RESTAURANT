@@ -1,0 +1,227 @@
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.promotions {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.popular-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.dish-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.dish-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+footer .newsletter input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer .contact-info p {
+    margin-top: 1rem;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(/images/pexels-photo-67468.webp) ;
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: hsl(0, 98%, 50%);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f5f3f3;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: hsl(0, 98%, 50%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#checkout,#remove{
+    padding: 0.5rem 1rem;
+    background: hsl(0, 98%, 50%);
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.men{
+    margin-top: 30px;
+    color: #0e0d0d;
+    text-align: center;
+    font-size: xx-large;
+}
+.menu {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dish-card {
+    background: #f5f3f3;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+}
+
+.dish-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.cart {
+    padding: 2rem;
+    background:hsl(0, 98%, 50%) ;
+    text-align: center;
+}
+
+.cart-items {
+    margin: 1rem 0;
+}
+
+
+.cart-total {
+    font-weight: bold;
+}
+
+footer {
+    background: #f5f3f3;
+    color: rgb(134, 17, 17);
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}

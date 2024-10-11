@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="logo">Foodie</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login/Sign Up</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search...">
+            </div>
+        </header>
+    
+        <main>
+            <section class="hero">
+                <h1>Delicious Meals Delivered to You!!</h1>
+                <button id="order-now">Order Now</button>
+            </section>
+            <h2 class="men">Menu</h2>
+            <section class="menu">
+                
+                <div class="dish-card" data-name="chicken" data-price="2000">
+                    <img src="images/chicken.avif" alt="chicken" height="90px" width="100%">
+                    <h3>chicken</h3>
+                    <p>Cripsy and yummy fried chicken with wonderful seasoning.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="dish-card" data-name="fried rice and beef" data-price="4000">
+                    <img src="images/fried rice.jfif" alt="fried  rice">
+                    <h3>fried rice and beef</h3>
+                    <p>delicious beef fried rice with fresh carrot and peas.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="dish-card" data-name="pasta" data-price="3000">
+                    <img src="images/download (2).jfif" alt="Pasta" height="100px" width="100%">
+                    <h3>Pasta</h3>
+                    <p>Pasta with a rich tomato sauce and herbs.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </section>
+            <div class="cart">
+                <h2>Cart</h2>
+                <div class="cart-items"></div>
+                <div class="cart-total">Total: $0.00</div>
+                <button id="checkout">Checkout</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Foodie. All rights reserved.</p>
+        </footer>
+    
+        <script src="js/index.js"></script>
+        <script src="t.js"></script>
+    </body>
+</html>
+
+
